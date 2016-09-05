@@ -17,4 +17,4 @@ Stay hungry. Stay foolish.
 2. webview  `load webview`
 3. http `use Alamofire send http request`
 4. textfield `textfield`、 ` UITextFieldDelegate`、 `views`
-
+5. alertAction `AlertAction`、`ActionSheet`、`lazy load property`、`closure with weak reference in capture list`

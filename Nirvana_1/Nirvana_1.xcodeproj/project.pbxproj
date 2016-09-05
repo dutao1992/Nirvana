@@ -22,6 +22,7 @@
 		266D24A21D7B2BB0009D9CCB /* JsonFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D24A11D7B2BB0009D9CCB /* JsonFromFile.swift */; };
 		266D24A51D7B310C009D9CCB /* TestWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D24A41D7B310C009D9CCB /* TestWebview.swift */; };
 		2693DAA51D7DB126003AA0FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693DAA41D7DB126003AA0FF /* Default-568h@2x.png */; };
+		2693DAA81D7DBB39003AA0FF /* alertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693DAA71D7DBB39003AA0FF /* alertAction.swift */; };
 		26C3AD0F1D7B4CE800392B1B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C3AD0E1D7B4CE800392B1B /* Alamofire.framework */; };
 		26C3AD111D7B4CEC00392B1B /* QorumLogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C3AD101D7B4CEC00392B1B /* QorumLogs.framework */; };
 		2C407357774018E27FA97CBC /* Pods_Nirvana_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A1C88DDA872DA7E3F6D868 /* Pods_Nirvana_1.framework */; };
@@ -66,6 +67,7 @@
 		266D24A11D7B2BB0009D9CCB /* JsonFromFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JsonFromFile.swift; path = Stack/json_from_file/JsonFromFile.swift; sourceTree = "<group>"; };
 		266D24A41D7B310C009D9CCB /* TestWebview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestWebview.swift; path = Stack/webview/TestWebview.swift; sourceTree = "<group>"; };
 		2693DAA41D7DB126003AA0FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2693DAA71D7DBB39003AA0FF /* alertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = alertAction.swift; path = Stack/alertAction/alertAction.swift; sourceTree = "<group>"; };
 		26C3AD0E1D7B4CE800392B1B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/Nirvana_1-fsruvstokizcxodjdieahkpzkeea/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
 		26C3AD101D7B4CEC00392B1B /* QorumLogs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QorumLogs.framework; path = "../../Library/Developer/Xcode/DerivedData/Nirvana_1-fsruvstokizcxodjdieahkpzkeea/Build/Products/Debug-iphonesimulator/QorumLogs.framework"; sourceTree = "<group>"; };
 		2AD124506C30339CED2D93A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		266D249A1D7B2B0E009D9CCB /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				2693DAA61D7DBB0A003AA0FF /* alertAction */,
 				2630E46C1D7C0C3100D899D2 /* textfield */,
 				2630E4691D7BCACB00D899D2 /* http */,
 				266D24A31D7B30DD009D9CCB /* webview */,
@@ -200,6 +203,14 @@
 				266D24A41D7B310C009D9CCB /* TestWebview.swift */,
 			);
 			name = webview;
+			sourceTree = "<group>";
+		};
+		2693DAA61D7DBB0A003AA0FF /* alertAction */ = {
+			isa = PBXGroup;
+			children = (
+				2693DAA71D7DBB39003AA0FF /* alertAction.swift */,
+			);
+			name = alertAction;
 			sourceTree = "<group>";
 		};
 		6B9BA5C96357AE1FDB0DFE4D /* Frameworks */ = {
@@ -408,6 +419,7 @@
 			files = (
 				266D24721D7B2AEE009D9CCB /* Nirvana_1.xcdatamodeld in Sources */,
 				266D246C1D7B2AEE009D9CCB /* ViewController.swift in Sources */,
+				2693DAA81D7DBB39003AA0FF /* alertAction.swift in Sources */,
 				266D246A1D7B2AEE009D9CCB /* AppDelegate.swift in Sources */,
 				2630E46B1D7BCAF800D899D2 /* http_request.swift in Sources */,
 				266D24A51D7B310C009D9CCB /* TestWebview.swift in Sources */,

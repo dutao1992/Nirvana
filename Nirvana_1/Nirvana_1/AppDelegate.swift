@@ -34,8 +34,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
 //        let testC = TestJsonFromFileController.init()
 //        let testC = TestWebViewController.init()
-        let testC = HttpRequestControllerTest.init()
+//        let testC = HttpRequestControllerTest.init()
 //        let testC = TestTextFieldController.init()
+        let testC = TestAlertActionController()
         
         return testC
     }
