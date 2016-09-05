@@ -1,0 +1,13 @@
+PODS:
+  - Alamofire (3.4.2)
+  - QorumLogs (0.8)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - QorumLogs
+
+SPEC CHECKSUMS:
+  Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  QorumLogs: d971b31d343ac0ecf4904adc29c1d32f0e46d6a4
+
+COCOAPODS: 0.39.0
