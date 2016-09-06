@@ -36,8 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let testC = TestWebViewController.init()
 //        let testC = HttpRequestControllerTest.init()
 //        let testC = TestTextFieldController.init()
-        let testC = TestAlertActionController()
-        
+//        let testC = TestAlertActionController()
+        let testC = UINavigationController.init(rootViewController: TestNavigationBarsController(nibName: nil, bundle: nil))
         return testC
     }
     
