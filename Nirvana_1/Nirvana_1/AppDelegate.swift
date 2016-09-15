@@ -33,11 +33,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func loadMainController()->UIViewController
     {
 //        let testC = TestJsonFromFileController.init()
-//        let testC = TestWebViewController.init()
+        let testC = TestWebViewController.init()
 //        let testC = HttpRequestControllerTest.init()
 //        let testC = TestTextFieldController.init()
 //        let testC = TestAlertActionController()
-        let testC = UINavigationController.init(rootViewController: TestNavigationBarsController(nibName: nil, bundle: nil))
+//        let testC = UINavigationController.init(rootViewController: TestNavigationBarsController(nibName: nil, bundle: nil))
+//        let testC = TestTextViewController()
+//        let testC = TestScrollView()
+//        let testC = TestButtonController()
+//        let testC = TestProgressViewController()
+//        let testC = TestLabelViewController()
+//        let testC = TestSegmentedControlViewController()
         return testC
     }
     

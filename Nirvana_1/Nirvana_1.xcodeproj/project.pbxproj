@@ -12,7 +12,6 @@
 		2630E46B1D7BCAF800D899D2 /* http_request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2630E46A1D7BCAF700D899D2 /* http_request.swift */; };
 		2630E46E1D7C0C7400D899D2 /* TextfieldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2630E46D1D7C0C7400D899D2 /* TextfieldText.swift */; };
 		266D246A1D7B2AEE009D9CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D24691D7B2AEE009D9CCB /* AppDelegate.swift */; };
-		266D246C1D7B2AEE009D9CCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D246B1D7B2AEE009D9CCB /* ViewController.swift */; };
 		266D24721D7B2AEE009D9CCB /* Nirvana_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 266D24701D7B2AEE009D9CCB /* Nirvana_1.xcdatamodeld */; };
 		266D24741D7B2AEE009D9CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266D24731D7B2AEE009D9CCB /* Assets.xcassets */; };
 		266D24771D7B2AEE009D9CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266D24751D7B2AEE009D9CCB /* LaunchScreen.storyboard */; };
@@ -21,6 +20,12 @@
 		266D24A01D7B2B94009D9CCB /* 0700.json in Resources */ = {isa = PBXBuildFile; fileRef = 266D249F1D7B2B94009D9CCB /* 0700.json */; };
 		266D24A21D7B2BB0009D9CCB /* JsonFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D24A11D7B2BB0009D9CCB /* JsonFromFile.swift */; };
 		266D24A51D7B310C009D9CCB /* TestWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D24A41D7B310C009D9CCB /* TestWebview.swift */; };
+		26865CE01D8A3F040096D416 /* textView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CDF1D8A3F040096D416 /* textView.swift */; };
+		26865CE31D8A7A9D0096D416 /* scrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CE21D8A7A9D0096D416 /* scrollView.swift */; };
+		26865CE71D8A8B320096D416 /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CE61D8A8B320096D416 /* button.swift */; };
+		26865CEA1D8ABCA60096D416 /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CE91D8ABCA60096D416 /* progressView.swift */; };
+		26865CED1D8AC7F30096D416 /* label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CEC1D8AC7F30096D416 /* label.swift */; };
+		26865CF01D8ADC2D0096D416 /* segmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CEF1D8ADC2D0096D416 /* segmentedControl.swift */; };
 		2693DAA51D7DB126003AA0FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693DAA41D7DB126003AA0FF /* Default-568h@2x.png */; };
 		2693DAA81D7DBB39003AA0FF /* alertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693DAA71D7DBB39003AA0FF /* alertAction.swift */; };
 		26B626631D7F40FE0062327E /* navigationBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B626621D7F40FE0062327E /* navigationBars.swift */; };
@@ -53,7 +58,6 @@
 		2630E46D1D7C0C7400D899D2 /* TextfieldText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextfieldText.swift; path = Stack/textfield/TextfieldText.swift; sourceTree = "<group>"; };
 		266D24661D7B2AEE009D9CCB /* Nirvana_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nirvana_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266D24691D7B2AEE009D9CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		266D246B1D7B2AEE009D9CCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		266D24711D7B2AEE009D9CCB /* Nirvana_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nirvana_1.xcdatamodel; sourceTree = "<group>"; };
 		266D24731D7B2AEE009D9CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		266D24761D7B2AEE009D9CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +71,12 @@
 		266D249F1D7B2B94009D9CCB /* 0700.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 0700.json; path = Stack/json_from_file/0700.json; sourceTree = "<group>"; };
 		266D24A11D7B2BB0009D9CCB /* JsonFromFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JsonFromFile.swift; path = Stack/json_from_file/JsonFromFile.swift; sourceTree = "<group>"; };
 		266D24A41D7B310C009D9CCB /* TestWebview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestWebview.swift; path = Stack/webview/TestWebview.swift; sourceTree = "<group>"; };
+		26865CDF1D8A3F040096D416 /* textView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = textView.swift; path = Stack/textView/textView.swift; sourceTree = "<group>"; };
+		26865CE21D8A7A9D0096D416 /* scrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = scrollView.swift; path = Stack/scrollView/scrollView.swift; sourceTree = "<group>"; };
+		26865CE61D8A8B320096D416 /* button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = button.swift; path = Stack/button/button.swift; sourceTree = "<group>"; };
+		26865CE91D8ABCA60096D416 /* progressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = progressView.swift; path = Stack/progressView/progressView.swift; sourceTree = "<group>"; };
+		26865CEC1D8AC7F30096D416 /* label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = label.swift; path = Stack/label/label.swift; sourceTree = "<group>"; };
+		26865CEF1D8ADC2D0096D416 /* segmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = segmentedControl.swift; path = Stack/segmemtedControl/segmentedControl.swift; sourceTree = "<group>"; };
 		2693DAA41D7DB126003AA0FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2693DAA71D7DBB39003AA0FF /* alertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = alertAction.swift; path = Stack/alertAction/alertAction.swift; sourceTree = "<group>"; };
 		26B626621D7F40FE0062327E /* navigationBars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navigationBars.swift; path = Stack/navigationBars/navigationBars.swift; sourceTree = "<group>"; };
@@ -149,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				266D24691D7B2AEE009D9CCB /* AppDelegate.swift */,
-				266D246B1D7B2AEE009D9CCB /* ViewController.swift */,
 				266D24731D7B2AEE009D9CCB /* Assets.xcassets */,
 				266D24751D7B2AEE009D9CCB /* LaunchScreen.storyboard */,
 				266D24781D7B2AEE009D9CCB /* Info.plist */,
@@ -180,6 +189,12 @@
 		266D249A1D7B2B0E009D9CCB /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				26865CEE1D8ADBED0096D416 /* segmentedControl */,
+				26865CEB1D8AC7960096D416 /* label */,
+				26865CE81D8ABC580096D416 /* progressView */,
+				26865CE51D8A8AF10096D416 /* button */,
+				26865CE11D8A7A570096D416 /* scrollView */,
+				26865CDE1D8A3EE40096D416 /* textView */,
 				26B626611D7F40C30062327E /* navigationBars */,
 				2693DAA61D7DBB0A003AA0FF /* alertAction */,
 				2630E46C1D7C0C3100D899D2 /* textfield */,
@@ -206,6 +221,54 @@
 				266D24A41D7B310C009D9CCB /* TestWebview.swift */,
 			);
 			name = webview;
+			sourceTree = "<group>";
+		};
+		26865CDE1D8A3EE40096D416 /* textView */ = {
+			isa = PBXGroup;
+			children = (
+				26865CDF1D8A3F040096D416 /* textView.swift */,
+			);
+			name = textView;
+			sourceTree = "<group>";
+		};
+		26865CE11D8A7A570096D416 /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				26865CE21D8A7A9D0096D416 /* scrollView.swift */,
+			);
+			name = scrollView;
+			sourceTree = "<group>";
+		};
+		26865CE51D8A8AF10096D416 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				26865CE61D8A8B320096D416 /* button.swift */,
+			);
+			name = button;
+			sourceTree = "<group>";
+		};
+		26865CE81D8ABC580096D416 /* progressView */ = {
+			isa = PBXGroup;
+			children = (
+				26865CE91D8ABCA60096D416 /* progressView.swift */,
+			);
+			name = progressView;
+			sourceTree = "<group>";
+		};
+		26865CEB1D8AC7960096D416 /* label */ = {
+			isa = PBXGroup;
+			children = (
+				26865CEC1D8AC7F30096D416 /* label.swift */,
+			);
+			name = label;
+			sourceTree = "<group>";
+		};
+		26865CEE1D8ADBED0096D416 /* segmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				26865CEF1D8ADC2D0096D416 /* segmentedControl.swift */,
+			);
+			name = segmentedControl;
 			sourceTree = "<group>";
 		};
 		2693DAA61D7DBB0A003AA0FF /* alertAction */ = {
@@ -315,6 +378,7 @@
 				TargetAttributes = {
 					266D24651D7B2AEE009D9CCB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P6EM54J52E;
 					};
 					266D247C1D7B2AEE009D9CCB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -429,14 +493,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				266D24721D7B2AEE009D9CCB /* Nirvana_1.xcdatamodeld in Sources */,
-				266D246C1D7B2AEE009D9CCB /* ViewController.swift in Sources */,
 				2693DAA81D7DBB39003AA0FF /* alertAction.swift in Sources */,
 				266D246A1D7B2AEE009D9CCB /* AppDelegate.swift in Sources */,
 				2630E46B1D7BCAF800D899D2 /* http_request.swift in Sources */,
 				266D24A51D7B310C009D9CCB /* TestWebview.swift in Sources */,
+				26865CEA1D8ABCA60096D416 /* progressView.swift in Sources */,
+				26865CF01D8ADC2D0096D416 /* segmentedControl.swift in Sources */,
+				26865CED1D8AC7F30096D416 /* label.swift in Sources */,
+				26865CE31D8A7A9D0096D416 /* scrollView.swift in Sources */,
 				2630E46E1D7C0C7400D899D2 /* TextfieldText.swift in Sources */,
 				26B626631D7F40FE0062327E /* navigationBars.swift in Sources */,
 				266D24A21D7B2BB0009D9CCB /* JsonFromFile.swift in Sources */,
+				26865CE71D8A8B320096D416 /* button.swift in Sources */,
+				26865CE01D8A3F040096D416 /* textView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,10 +642,12 @@
 			baseConfigurationReference = 2AD124506C30339CED2D93A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Nirvana_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.App-Lab.Nirvana-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cachethotelgroup.cyc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7380f02-d6db-417a-a0d1-ec7e21e3097d";
 			};
 			name = Debug;
 		};
@@ -585,10 +656,12 @@
 			baseConfigurationReference = 0B212398BBEC9DF827915CE2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Nirvana_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.App-Lab.Nirvana-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cachethotelgroup.cyc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7380f02-d6db-417a-a0d1-ec7e21e3097d";
 			};
 			name = Release;
 		};
