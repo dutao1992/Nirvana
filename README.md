@@ -1,6 +1,9 @@
 # Nirvana
 Stay hungry. Stay foolish.
 
+##Funcitonal swift
+
+##swift & iOS
 ~~~swift
 /**
  *	File:  AppDelegate.swift   Change rootController as your wish  

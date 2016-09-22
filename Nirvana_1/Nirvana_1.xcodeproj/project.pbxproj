@@ -28,6 +28,10 @@
 		26865CF01D8ADC2D0096D416 /* segmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865CEF1D8ADC2D0096D416 /* segmentedControl.swift */; };
 		2693DAA51D7DB126003AA0FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2693DAA41D7DB126003AA0FF /* Default-568h@2x.png */; };
 		2693DAA81D7DBB39003AA0FF /* alertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693DAA71D7DBB39003AA0FF /* alertAction.swift */; };
+		26A950B01D91B1DB00084914 /* PalleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A950AF1D91B1DB00084914 /* PalleteViewController.swift */; };
+		26A950B41D91B2A200084914 /* CommandSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A950B31D91B2A200084914 /* CommandSlider.swift */; };
+		26A950B61D91B2CA00084914 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A950B51D91B2CA00084914 /* Command.swift */; };
+		26A950B81D91B2E800084914 /* SetStrokeColorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A950B71D91B2E800084914 /* SetStrokeColorCommand.swift */; };
 		26B626631D7F40FE0062327E /* navigationBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B626621D7F40FE0062327E /* navigationBars.swift */; };
 		26C3AD0F1D7B4CE800392B1B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C3AD0E1D7B4CE800392B1B /* Alamofire.framework */; };
 		26C3AD111D7B4CEC00392B1B /* QorumLogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C3AD101D7B4CEC00392B1B /* QorumLogs.framework */; };
@@ -79,6 +83,10 @@
 		26865CEF1D8ADC2D0096D416 /* segmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = segmentedControl.swift; path = Stack/segmemtedControl/segmentedControl.swift; sourceTree = "<group>"; };
 		2693DAA41D7DB126003AA0FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2693DAA71D7DBB39003AA0FF /* alertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = alertAction.swift; path = Stack/alertAction/alertAction.swift; sourceTree = "<group>"; };
+		26A950AF1D91B1DB00084914 /* PalleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PalleteViewController.swift; path = DesignPattern/Adaptor/Controller/PalleteViewController.swift; sourceTree = "<group>"; };
+		26A950B31D91B2A200084914 /* CommandSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandSlider.swift; path = DesignPattern/Adaptor/Utility/CommandSlider.swift; sourceTree = "<group>"; };
+		26A950B51D91B2CA00084914 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Command.swift; path = DesignPattern/Adaptor/Command/Command.swift; sourceTree = "<group>"; };
+		26A950B71D91B2E800084914 /* SetStrokeColorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetStrokeColorCommand.swift; path = DesignPattern/Adaptor/Command/SetStrokeColorCommand.swift; sourceTree = "<group>"; };
 		26B626621D7F40FE0062327E /* navigationBars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navigationBars.swift; path = Stack/navigationBars/navigationBars.swift; sourceTree = "<group>"; };
 		26C3AD0E1D7B4CE800392B1B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/Nirvana_1-fsruvstokizcxodjdieahkpzkeea/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
 		26C3AD101D7B4CEC00392B1B /* QorumLogs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QorumLogs.framework; path = "../../Library/Developer/Xcode/DerivedData/Nirvana_1-fsruvstokizcxodjdieahkpzkeea/Build/Products/Debug-iphonesimulator/QorumLogs.framework"; sourceTree = "<group>"; };
@@ -163,6 +171,8 @@
 				266D24751D7B2AEE009D9CCB /* LaunchScreen.storyboard */,
 				266D24781D7B2AEE009D9CCB /* Info.plist */,
 				266D24701D7B2AEE009D9CCB /* Nirvana_1.xcdatamodeld */,
+				26A950AA1D91B0BB00084914 /* Algorithem */,
+				26A950A91D91B0A100084914 /* DesignPattern */,
 				266D249A1D7B2B0E009D9CCB /* Stack */,
 			);
 			path = Nirvana_1;
@@ -277,6 +287,56 @@
 				2693DAA71D7DBB39003AA0FF /* alertAction.swift */,
 			);
 			name = alertAction;
+			sourceTree = "<group>";
+		};
+		26A950A91D91B0A100084914 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				26A950AB1D91B0F600084914 /* Adaptor */,
+			);
+			name = DesignPattern;
+			sourceTree = "<group>";
+		};
+		26A950AA1D91B0BB00084914 /* Algorithem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Algorithem;
+			sourceTree = "<group>";
+		};
+		26A950AB1D91B0F600084914 /* Adaptor */ = {
+			isa = PBXGroup;
+			children = (
+				26A950B21D91B1FD00084914 /* Command */,
+				26A950B11D91B1F300084914 /* Utility */,
+				26A950AE1D91B1A200084914 /* Controller */,
+			);
+			name = Adaptor;
+			sourceTree = "<group>";
+		};
+		26A950AE1D91B1A200084914 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26A950AF1D91B1DB00084914 /* PalleteViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		26A950B11D91B1F300084914 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				26A950B31D91B2A200084914 /* CommandSlider.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		26A950B21D91B1FD00084914 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				26A950B51D91B2CA00084914 /* Command.swift */,
+				26A950B71D91B2E800084914 /* SetStrokeColorCommand.swift */,
+			);
+			name = Command;
 			sourceTree = "<group>";
 		};
 		26B626611D7F40C30062327E /* navigationBars */ = {
@@ -492,6 +552,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A950B81D91B2E800084914 /* SetStrokeColorCommand.swift in Sources */,
+				26A950B61D91B2CA00084914 /* Command.swift in Sources */,
+				26A950B41D91B2A200084914 /* CommandSlider.swift in Sources */,
 				266D24721D7B2AEE009D9CCB /* Nirvana_1.xcdatamodeld in Sources */,
 				2693DAA81D7DBB39003AA0FF /* alertAction.swift in Sources */,
 				266D246A1D7B2AEE009D9CCB /* AppDelegate.swift in Sources */,
@@ -502,6 +565,7 @@
 				26865CED1D8AC7F30096D416 /* label.swift in Sources */,
 				26865CE31D8A7A9D0096D416 /* scrollView.swift in Sources */,
 				2630E46E1D7C0C7400D899D2 /* TextfieldText.swift in Sources */,
+				26A950B01D91B1DB00084914 /* PalleteViewController.swift in Sources */,
 				26B626631D7F40FE0062327E /* navigationBars.swift in Sources */,
 				266D24A21D7B2BB0009D9CCB /* JsonFromFile.swift in Sources */,
 				26865CE71D8A8B320096D416 /* button.swift in Sources */,
